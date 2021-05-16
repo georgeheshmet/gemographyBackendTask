@@ -15,6 +15,7 @@ this microservice has only 1 endpoint:
 "/github-repos"
 
 * when you hit this endpoint it returns a JSON object :
+```
 {
     languages_count: number,
     lanugages_list : [languages],
@@ -23,7 +24,7 @@ this microservice has only 1 endpoint:
         language_2:{....}
     }
 }
-
+```
 * this object has all the information required: 
       languages in most 100 trending repos : object.lanugages_list
       for every language :
