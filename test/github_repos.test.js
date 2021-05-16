@@ -18,7 +18,7 @@ chai.use(chaiHttp)
 */
 
 describe('/GET app', () => {
-    it('it should GET route directory of app', function(done) {
+    it('it should GET github repos object correctly', function(done) {
       this.timeout(5000)
       chai.request(app)
           .get('/github-repos')
