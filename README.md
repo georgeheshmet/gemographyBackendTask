@@ -41,9 +41,9 @@ Our tech stack will include:
 
 ### Main Files: Project Structure
 
-
-  ├── README.md
-  ├── app.js *** the server app , has our endpoint
+  ```
+  ├── README.md        
+  ├── app.js *** the server app , has our endpoint\n
   ├── package.json *** The dependencies we need to install with "yarn  or npm install"
   ├── utils
   │   ├── analyzeGithubRepos.js 
@@ -78,7 +78,7 @@ To start and run the local development server,
   $npm start or node app.js
 
   ```
-3. Run test usin :
+3. Run test using :
   ```
   $npm test
   ```  
