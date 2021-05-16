@@ -1,0 +1,24 @@
+{
+  "name": "backend_task",
+  "version": "1.0.0",
+  "description": "task solution for the task found here :https://github.com/gemography/backend-coding-challenge/blob/master/README.md",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit",
+    "start": "node app.js"
+  },
+  "type": "module",
+  "author": "George Ghobrial",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.4.0"
+  }
+}
